@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8">
+    <title></title>
+
+    <!-- 缩放比例 -->
+    <meta id="viewport" name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+    <!-- 全屏 （Making it full-screen， for ios） -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!-- 改变状态栏 （Changing the phone status bar, for ios） -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- 禁用手机号码链接（for ios） -->
+    <meta name="format-detection" content="telephone=no" />
+    <!-- 浏览方向与全屏 -->
+    <meta name="screen-orientation" content="portrait">
+    <meta name="full-screen" content="true">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="360-fullscreen" content="true">
+
+<script type="text/javascript" src="jquery3.1.js"></script>
+<script type="text/javascript" src="ueditor.config.js"></script>
+<script type="text/javascript" src="ueditor.all.js"></script>
+<!--<script src="colorPicker.js" type="text/javascript" charset="utf-8"></script>-->
+</head>
+<body>
+
+<div id="container" style="width: 800px; height: 600px;"></div>
+<script type="text/javascript">
+	var wwei_editor = new UE.getEditor("container",{"tooltype": "phone"});
+</script>
+
+</body>
+</html>
